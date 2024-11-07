@@ -1,0 +1,7 @@
+django
+djangorestframework
+mysqlclient
+python-decouple
+instructlab
+PyJWT
+dateparser
