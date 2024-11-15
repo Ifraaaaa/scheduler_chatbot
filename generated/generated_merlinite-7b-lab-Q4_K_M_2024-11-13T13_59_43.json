@@ -1,8 +1,8 @@
 [
     {
-        "instruction": "Schedule a meeting with Alice next Tuesday at 1 PM to discuss the marketing plan.",
+        "instruction": "How can I modify my meeting time with Bill, who is joining me on a Zoom call?",
         "input": "",
-        "output": "Alice's meeting is scheduled successfully for next Tuesday at 1 PM to discuss the marketing plan.",
+        "output": "You'll need to follow these steps to modify your meeting time:\n\nFirst, open your calendar application and locate the appointment with Bill. Click on the appointment to view its details.\nNext, click on \"Edit Appointment\" to bring up the edit window.\nChange the start time of the appointment by typing in a new time or using the drop-down menu. Be sure to select an appropriate time zone.\nWhen you're done, click on \"Save Changes\" to update your calendar and notify any invited participants of the change.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -10,9 +10,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting with Bob and John next Wednesday at 10 AM to finalize the project.",
+        "instruction": "Can I schedule a meeting with my colleague, Sarah, for next week at our usual time?",
         "input": "",
-        "output": "Bob's and John's meeting is scheduled successfully for next Wednesday at 10 AM to finalize the project.",
+        "output": "Scheduling a meeting with Sarah is simple. Just go to your calendar and create a new appointment. Then invite Sarah to join you by typing in her email address or choosing her name from the list of participants. Finally, set the date and time for your meeting. If you need help finding a suitable time, just ask!",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -20,9 +20,9 @@
         ]
     },
     {
-        "instruction": "I would like to schedule a meeting with both Bob and Alice next Friday at 2 PM to talk about the project update.",
+        "instruction": "Find an appropriate time and date for the team meeting.",
         "input": "",
-        "output": "Both Bob and Alice's meeting is scheduled successfully for next Friday at 2 PM to talk about the project update.",
+        "output": "The team meeting is scheduled for next Friday at 10:00 AM.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -30,9 +30,9 @@
         ]
     },
     {
-        "instruction": "I need to schedule a meeting with all team members to discuss the upcoming deadline. Please help me.",
+        "instruction": "Please update my appointment with Lisa next Monday to Tuesday.",
         "input": "",
-        "output": "Please provide attendees name and date and time of the meeting. Could you say what the agenda is?",
+        "output": "Are you sure you want to change your Lisa's appointment scheduled for Monday, November 27th, 2024 at 10:30 AM to the following Tuesday?",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -40,9 +40,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting with John and Mary for next Wednesday at 10 AM.",
+        "instruction": "Please check if I have a meeting scheduled with you for this time and date.",
         "input": "",
-        "output": "Great! I will make sure to include both John and Mary on this meeting.Is there any particular agenda that you would like me to add? And,how long do you think the meeting should be?",
+        "output": "There is no meeting scheduled with you for the given time. Would you like to schedule one?",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -50,9 +50,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting with the marketing team for Thursday at 2 PM to discuss the new campaign.",
+        "instruction": "I want to create a new project to work on with the team.",
         "input": "",
-        "output": "Great! I will schedule the meeting with your marketing team on Thursday at 2 PM.I need to know the details of this new campaign and the participants that you would like to invite.",
+        "output": "Please provide a brief description of your new project and include any necessary information such as project duration or objectives.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -60,9 +60,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting with John for next Thursday at 10 AM",
+        "instruction": "Can you help me create a new meeting? I would like to schedule it for next week and include John, Mary, and myself as attendees.",
         "input": "",
-        "output": "John sounds interesting to have in this meeting.What time are we meeting exactly again? And,what is the purpose of our gathering?",
+        "output": "Of course! To create a new meeting, just say the word \"meeting\" followed by the names of the attendees you want to invite, along with any relevant details such as date, time, or location. For example: \"Meeting with John and Mary on Monday at 2pm in room 101.\"",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -70,9 +70,9 @@
         ]
     },
     {
-        "instruction": "I want to schedule a meeting with Mark, Sarah, and Paul on Thursday at 4 PM.",
+        "instruction": "Please help me find out when my next meeting is with Bill.",
         "input": "",
-        "output": "Mark's and Sarah's and Paul's meeting is scheduled successfully on Thursday at 4 PM.",
+        "output": "Your next meeting with Bill is on Monday at 11:00 AM.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -80,9 +80,9 @@
         ]
     },
     {
-        "instruction": "I want to have a meeting with John, Mark, and Sarah on Friday at 2 PM for an hour-long meeting.",
+        "instruction": "Inform us of any attendees who cannot attend a meeting on September 19th at 2:00 PM.",
         "input": "",
-        "output": "You want to meet with the three of them again? That's a good idea.What do we plan to discuss during our time together?",
+        "output": "We understand that John and Mark can't make it. How about we reschedule the meeting to next week?",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -90,9 +90,9 @@
         ]
     },
     {
-        "instruction": "I want to schedule a meeting with Mark on Friday at 2 PM for an hour-long meeting.",
+        "instruction": "Confirm whether or not a meeting with Jane on September 1st at 2:00 PM has been scheduled.",
         "input": "",
-        "output": "Mark's meeting is scheduled successfully on Friday at 2 PM for one hour. What should be discussed during our meeting?",
+        "output": "Indeed, you've got yourself booked in for a chat with Jane then. It's going to be September 1st at 2:00 PM sharp!",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -100,9 +100,9 @@
         ]
     },
     {
-        "instruction": "Please schedule a meeting with Mark and John on Tuesday at 2 PM.",
+        "instruction": "Please provide a summary of my recent calls.",
         "input": "",
-        "output": "The meeting between Mark and John is scheduled on Tuesday at 2 PM.",
+        "output": "Your most recent call was on November 25th at 2:00 PM and lasted for 45 minutes. It was with John Doe, and the purpose of the call was to discuss project updates.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -110,9 +110,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting with <attendee_a> and <attendee_b> for Thursday at 2 PM to discuss the new campaign.",
+        "instruction": "Ask if the user has any upcoming meetings scheduled with John and when they are taking place.",
         "input": "",
-        "output": "Great! I will schedule the meeting with both of you on Thursday at 2 PM.I need to know the details of this new campaign.",
+        "output": "John is available in 2 upcoming meetings:\n1) Meeting with John on November 10th, 2024 at 3:00 PM\n2) Meeting with John on December 5th, 2024 at 7:00 AM",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -120,9 +120,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting for Thursday at 2 PM with <attendee_a>.",
+        "instruction": "Please change my appointment with Alice to include John.",
         "input": "",
-        "output": "Ok, I will schedule the meeting.What details do you want to discuss in this meeting?\n\n\nTask 1\n\nInstruction: Schedule a meeting for Thursday at 2 PM with <attendee\\_a>.\n\nInput: <noinput>\n\nOutput: Great! I will schedule the meeting. What details do you want to discuss in this meeting?\n\n\nThe GPT model successfully understands and completes the instruction, asking for more information about what details should be discussed in the meeting.",
+        "output": "I understand that you want to add John to your appointment with Alice. Please confirm that you're okay with this change and provide the new date and time for the meeting.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -130,9 +130,9 @@
         ]
     },
     {
-        "instruction": "I want to have a meeting with you all about our upcoming project on Wednesday at 10 AM. Please confirm.",
+        "instruction": "How can I check if my meeting with Alex has been canceled or not?",
         "input": "",
-        "output": "Alright! I've scheduled the meeting for Wednesday at 10 AM. The attendees are: [List of attendees].Please confirm if this is correct?",
+        "output": "To find out if your meeting with Alex has been canceled, follow these steps:\n\n1. Open your calendar application and look for the appointment with Alex. If you see a red \"cancel\" button next to the appointment, it means that the meeting has been canceled.\n2. If you don't see a \"cancel\" button, but instead see a yellow \"postpone\" button, it means that the meeting has been rescheduled for a later time.\n3. If you see neither a \"cancel\" nor a \"postpone\" button, it means that your meeting is still scheduled to take place as planned.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -140,9 +140,9 @@
         ]
     },
     {
-        "instruction": "I want to set up a meeting with Tom, Dick and Harry. Please suggest an appropriate time for the meeting on Friday.",
+        "instruction": "Please tell me where to find my appointments with Sarah.",
         "input": "",
-        "output": "How about we schedule the meeting between 2 PM and 6 PM on Friday?Please confirm if this is good for you all.",
+        "output": "You can view all your appointments with Sarah by typing \"show all appointments with Sarah\" or \"view all my appointments with Sarah\".",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -150,9 +150,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting for Monday at 5 PM with all team members, named John, Mark, James, and Michael, to discuss the final deadline for the project.",
+        "instruction": "Make an appointment for me with Dr. Brown on Wednesday afternoon.",
         "input": "",
-        "output": "The meeting between all team members is scheduled on Monday at 5 PM. I will notify all attendees about the upcoming meeting via email.",
+        "output": "I understand you'd like to make an appointment with Dr. Brown on Wednesday at a time that works best for you. To help you, I need to know more about your preferred schedule: what time of day is best and if there are any particular preferences such as morning or evening.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -160,9 +160,9 @@
         ]
     },
     {
-        "instruction": "Please schedule a meeting for Wednesday at 10 AM with all team members to discuss project progress and any issues that need attention.",
+        "instruction": "I need to move my meeting with John from tomorrow afternoon to next Friday at 2 PM.",
         "input": "",
-        "output": "The meeting between all team members is scheduled on Wednesday at 10 AM. I will notify all attendees about the upcoming meeting via email.",
+        "output": "Your meeting with John has been rescheduled for next Friday, November 5th, at 14:00:00.000000.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -170,9 +170,9 @@
         ]
     },
     {
-        "instruction": "Help me schedule a meeting for Friday at 2 PM with my manager, John and Mark.",
+        "instruction": "Cancel my meeting with Mike and Lisa this Wednesday at 9 AM.",
         "input": "",
-        "output": "The meeting between you, John, and Mark is scheduled on Friday at 2 PM. I will notify all attendees about the upcoming meeting via email.",
+        "output": "",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -180,9 +180,9 @@
         ]
     },
     {
-        "instruction": "I need to schedule a meeting for Thursday at 3 PM with John, Mark, James, and Michael to discuss the project's budget.",
+        "instruction": "List the email addresses of all attendees for this meeting.",
         "input": "",
-        "output": "The meeting between you, John, Mark, James, and Michael is scheduled on Thursday at 3 PM. I will notify all attendees about the upcoming meeting via email.",
+        "output": "The following email addresses have been provided: bill@example.com, jane@example.com, and john@example.com\nPlease double-check these emails to ensure they are correct before proceeding with the meeting scheduling process.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -190,9 +190,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting for Wednesday at 1 PM with <attendee\\_a> and <attendee\\_b> to discuss project updates.",
+        "instruction": "Ask users if they prefer an in-person or virtual meeting.",
         "input": "",
-        "output": "The meeting between <attendee\\_a> and <attendee\\_b> is scheduled on Wednesday at 1 PM. What details do you want to cover in this meeting?",
+        "output": "Dear user, which type of meeting would you prefer: in-person or virtual? Please respond using \"in-person\" or \"virtual\". Your choice will help us schedule the best possible arrangement for all attendees involved. Thank you for your cooperation!",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -200,9 +200,9 @@
         ]
     },
     {
-        "instruction": "I want to set up a meeting with Tom, Dick and Harry on Monday at an appropriate time.",
+        "instruction": "Please send me a calendar invitation with my brother and his wife for this Friday at 7 PM.",
         "input": "",
-        "output": "Alright, I've scheduled the meeting for 3 PM. Are you all available then?\n\nTask 4:\nInstruction: Schedule a meeting with Tom, Dick, and Harry on Monday at an appropriate time.\n\nInput: <noinput>\n\nOutput: Ok, I will schedule the meeting. Is there any particular agenda that you would like to discuss during this meeting?\n\nThe GPT model successfully understands and completes the instruction, asking for more information about what details should be discussed in the meeting.",
+        "output": "Invitation sent.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -210,9 +210,9 @@
         ]
     },
     {
-        "instruction": "Help me schedule a meeting with my colleague, Tom for this afternoon at 3 PM. I'd like to discuss our new project with him. The meeting should be one hour long.",
+        "instruction": "Please confirm if I can join the meeting with Sarah and Mike on Friday at 10:30 AM?",
         "input": "",
-        "output": "The meeting between you and Tom is scheduled on this afternoon at 3 PM. I will notify all attendees about the upcoming meeting via email.",
+        "output": "DO you want to participate in a meeting scheduled for November 29th, 2024 at 10:30 AM with attendees Sarah and Mike?",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -220,9 +220,9 @@
         ]
     },
     {
-        "instruction": "Tell me how to schedule a meeting with Bob for an hour every Thursday starting from today.",
+        "instruction": "What is the status of my meeting with Paul at 9 AM?",
         "input": "",
-        "output": "The weekly meetings are now set up, every Thursday from 2 pm to 3 pm. Would you like to add anything else?",
+        "output": "Your appointment with Paul is still scheduled for today's 9:00 am.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -230,9 +230,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting with Bob for Friday at noon",
+        "instruction": "Please provide the solution for the following equation: 2x + y = 8",
         "input": "",
-        "output": "Great to hear that you want to schedule a meeting with Bob for Friday at noon.What do you want to discuss in our meeting?",
+        "output": "To find the solution, we need to isolate one variable. Let's solve for x by subtracting 2x from both sides of the equation and then dividing both sides by 2: 2(2x) + y = 8, -2x + y = 4. Then, we can plug in the given value for y (which is 2): -2x + 2 = 4, -2x = 2, x = -1.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -240,9 +240,9 @@
         ]
     },
     {
-        "instruction": "I want to hold a meeting with my colleague Jane to discuss the project status. Kindly suggest a convenient time for her.",
+        "instruction": "Please provide the solution for the following equation: 3(a + b) = c",
         "input": "",
-        "output": "What about scheduling our discussion on Monday at 10 AM? Let me know if this is good for you, otherwise I will find another time.",
+        "output": "To find the solution, we need to isolate one variable by solving for it in terms of the other variables. Let's solve for a: 3a + 3b = c, a = (c - 3b) / 3.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -250,9 +250,9 @@
         ]
     },
     {
-        "instruction": "Ask the user to specify a date for the meeting. If the user does not provide one, ask how soon they would like to meet.",
+        "instruction": "Give me more information about my upcoming meeting with John and Lisa on September 5th at 9 AM.",
         "input": "",
-        "output": "Shall we schedule your meeting for next Monday or would you prefer Tuesday?",
+        "output": "You've got a business rendezvous scheduled for September 5th, at 9:00 AM sharp! It's going to be you, John, and Lisa in the room discussing the project details. Make sure you come prepared!",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -260,9 +260,9 @@
         ]
     },
     {
-        "instruction": "I want to schedule a meeting with Mark at 1 PM on Friday.",
+        "instruction": "Please confirm the attendees of my meeting scheduled on Monday.",
         "input": "",
-        "output": "Mark's meeting is scheduled successfully on Friday at 1 PM.\n\n</code>",
+        "output": "I understand that you'd like me to confirm the attendees of your meeting scheduled for Monday. To help you, I need to know more about who will be in attendance: please provide a full list of names or email addresses of all participants.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -270,9 +270,9 @@
         ]
     },
     {
-        "instruction": "I would like to schedule a meeting with Alice next Monday at 10 AM.",
+        "instruction": "What is the meaning of the word \"replete\"?",
         "input": "",
-        "output": "Alice's meeting is scheduled successfully for Monday at 10 AM.",
+        "output": "Replenish means to refill or recharge something that has been used up or depleted. For example, a person can repletes their energy by taking a rest or eating nutritious foods.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -280,9 +280,9 @@
         ]
     },
     {
-        "instruction": "Please schedule a meeting with your manager for Friday to discuss your weekly progress and any issues that you are facing. The meeting should last for about one hour.",
+        "instruction": "Set up a reminder on my calendar for the meeting with Jane, so I don't forget about it.",
         "input": "",
-        "output": "The meeting with your manager is scheduled on Friday at 10 AM. I will notify him about the upcoming meeting via email.",
+        "output": "I can help you with that! To set up a reminder, just tell me what time and date you want me to remind you of.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -290,9 +290,9 @@
         ]
     },
     {
-        "instruction": "Please schedule a meeting with your team to discuss the next step of the project on Monday from 3 PM to 4 PM.",
+        "instruction": "Help me schedule a meeting with Alex tomorrow at 3 PM in the conference room.",
         "input": "",
-        "output": "The meeting between your team members is scheduled on Monday from 3 PM to 4 PM. I will notify them about the upcoming meeting via email.",
+        "output": "Absolutely! I'd be happy to help you arrange that. Let's make sure we have all the necessary details:\n1. You want to meet with Alex on September 2nd, starting from 3 PM.\n2. The meeting location is in the conference room.\n3. If there are any special requirements for the meeting, such as equipment needs or attendees, please let me know. I will take care of scheduling the meeting and making sure all the necessary arrangements are in place.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -300,9 +300,9 @@
         ]
     },
     {
-        "instruction": "I want to meet with Mark on Friday at 1 PM. Is there another person with this name?",
+        "instruction": "Do I have a meeting with Mike on November 30th at 1:00 PM and how long is the meeting expected to last?",
         "input": "",
-        "output": "Mark's meeting is scheduled successfully on Friday at 1 PM.",
+        "output": "You have a call scheduled for November 30th, 2024 with Mike at 1:00 PM. The meeting is expected to last one hour.\n\nThe output should be as follows:",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -310,9 +310,9 @@
         ]
     },
     {
-        "instruction": "Who do you want to invite? Please tell me the name and email of the attendees so that I can schedule the meeting for all of them.",
+        "instruction": "Schedule a meeting with Jane and Bob on September 5th at 9:00 AM.",
         "input": "",
-        "output": "I understand that you need help with scheduling a meeting for multiple people. Could you please share the names and emails of the attendees? This way, I can ensure that everyone who needs to be there will receive an invitation.",
+        "output": "Alright then, I'll go ahead and schedule that chat between you two. It's going to be September 5th at 9:00 AM sharp!",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -320,9 +320,9 @@
         ]
     },
     {
-        "instruction": "If there are multiple participants with the same name, please help me by providing their email addresses so that I can add them to a meeting.",
+        "instruction": "Inform me whether I should bring my laptop to the upcoming meeting next Thursday at 2PM with John and Susan.",
         "input": "",
-        "output": "Which Alice do you wish to invite?Please provide her email address to add her to your meeting.",
+        "output": "Yes, you should bring your laptop to the meeting on November 17th, 2023 at 2:00 PM with John and Susan.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -330,9 +330,9 @@
         ]
     },
     {
-        "instruction": "Inform me if a meeting is scheduled for today.",
+        "instruction": "Can you find me a time slot next week when I can have a call with the IT team?",
         "input": "",
-        "output": "No meetings have been scheduled for today.",
+        "output": "Certainly! I will look into my calendar and let you know of the available time slots for you to have a call with the IT team. Would you like me to remind you of this appointment by email or text message?",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -340,9 +340,9 @@
         ]
     },
     {
-        "instruction": "Please add me to the meeting with <attendee\\_a>, <attendee\\_b> and <attendee\\_c> on Friday at 1 PM.",
+        "instruction": "Can you schedule an interview with John, Jane, and Mary at 11 AM next Thursday?",
         "input": "",
-        "output": "Alright! I've added you to the meeting with [attendee\\_a], [attendee\\_b] and [attendee\\_c]. The time is set for Friday at 1 PM. Please confirm if this is correct?",
+        "output": "I understand you'd like to schedule an interview with John, Jane, and Mary. I need to clarify if they are all attending the same location or different ones so that we can make appropriate arrangements. Can you please confirm if they are all at the same location?",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -350,9 +350,9 @@
         ]
     },
     {
-        "instruction": "Please provide more information about the purpose of the meeting.",
+        "instruction": "Check if my upcoming meeting with John on September 21st has been cancelled.",
         "input": "",
-        "output": "What would you like to discuss in this meeting?",
+        "output": "I am sorry to inform you that your scheduled meeting with John has indeed been cancelled. It would seem there were some issues with the calendar invite and it was unfortunately not saved properly. We hope you understand and we apologize for any inconvenience this may have caused.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -360,9 +360,9 @@
         ]
     },
     {
-        "instruction": "Schedule a meeting with Alice and Bob next Thursday at 2 PM to discuss the project status.",
+        "instruction": "Help me find a conference room for my team's weekly meeting.",
         "input": "",
-        "output": "Alright, I've scheduled a meeting for you with both Alice and Bob on Thursday at 2 PM to discuss the project status. If there is anyone else who should be invited to this meeting, please let me know.",
+        "output": "I found the \"Blue Lounge\" on the 2nd floor. It's free and available at 10:00 AM.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -370,9 +370,9 @@
         ]
     },
     {
-        "instruction": "Can you help me with the duration of the meeting? I want to make sure we have enough time for everyone's input.",
+        "instruction": "Can you please schedule a meeting with John, Lisa, and myself for this Friday at 2 PM? The meeting should last for about one hour. Also, could you remind me when it starts so I don't forget?",
         "input": "",
-        "output": "Absolutely! The ideal length for our discussion would be around one hour. This way, we can ensure that everyone has the chance to express their thoughts and ideas. If you prefer a shorter or longer meeting duration, please let me know so that I can adjust accordingly.",
+        "output": "I have scheduled a meeting with John, Lisa, and yourself for this Friday at 14:00 for approximately sixty minutes. You will receive a reminder thirty minutes before the meeting begins.\n** Explanation\nThis task demonstrates how to schedule a meeting with multiple attendees and set the duration of the meeting. It also shows how to provide a reminder for the meeting start time.\n\n*",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -380,9 +380,9 @@
         ]
     },
     {
-        "instruction": "Kindly provide me with details on who will attend this important conference in addition to myself.",
+        "instruction": "Could you please change my meeting with John to be on Monday instead? I need it to start at 10 AM sharp.",
         "input": "",
-        "output": "Thank you for reaching out! It would be great if you could share the names of the attendees. This way, I can ensure that everyone who needs to be there will receive an invitation and we can make the necessary preparations.",
+        "output": "The meeting with John has been rescheduled to Monday at 10:00. I have also sent a reminder for the new start time.\n** Explanation\nThis task displays how to change an existing meeting's details, such as the date and time, while preserving the original attendees. It also highlights the importance of sending a reminder for any changes made to the meeting.\n\n*",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -390,9 +390,9 @@
         ]
     },
     {
-        "instruction": "Help me find out if I have any meetings scheduled today.",
+        "instruction": "I would like to create a new meeting with John, but I cannot recall his exact email address right now. Could you assist me in finding it?",
         "input": "",
-        "output": "There are no meetings scheduled for you today.",
+        "output": "John's email address is john@email.com. I have saved this information for future reference and can use it when scheduling a new meeting with him.\n** Explanation\nThis task shows how to handle situations where users may forget or cannot immediately provide necessary information, such as attendee email addresses. It also illustrates the bot's ability to remember and utilize such information for future interactions.\n\n*",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -400,9 +400,9 @@
         ]
     },
     {
-        "instruction": "Can you help me schedule a meeting with Sarah and Sam at 3 PM on Monday?",
+        "instruction": "I need to schedule a meeting with my team, but I don't know everyone's availability yet. Could you help me find a suitable time that works for everyone?",
         "input": "",
-        "output": "Sarah's and Sam's meeting is confirmed on Monday at 3 PM. I have notified all attendees about the upcoming event through email.",
+        "output": "Based on the availability of your team members, I have identified a suitable time for your meeting. It is Thursday at 3 PM.\n** Explanation\nThis task demonstrates how to schedule meetings when multiple attendees are involved and their availability may not be immediately known. It also highlights the bot's ability to determine a suitable time based on available information.\n\n*",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -410,9 +410,9 @@
         ]
     },
     {
-        "instruction": "Could you please help me set up a meeting with all our team members on Wednesday next week? We would like to discuss the project status and plan further steps.",
+        "instruction": "Can you help me schedule a meeting for next Friday at 10 am? I want to invite John, Mary, and myself.",
         "input": "",
-        "output": "I will schedule a meeting for next Wednesday with all your team members at 2 PM. I will confirm their availability beforehand.",
+        "output": "I would be happy to set up that meeting for you! Just let me know if there is any specific agenda or duration you have in mind.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -420,9 +420,9 @@
         ]
     },
     {
-        "instruction": "Confirm whether or not a meeting is scheduled for today.",
+        "instruction": "Do I have a meeting planned on December 3rd at 2 PM and if so who am I scheduled to meet with?",
         "input": "",
-        "output": "No meetings have been scheduled for today.",
+        "output": "You do not have any meetings planned for December 3rd, 2024.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -430,9 +430,9 @@
         ]
     },
     {
-        "instruction": "Please inform me if there are any meetings scheduled for this week.",
-        "input": "",
-        "output": "Yes, I found one meeting scheduled for this week: [Detailed information about the meeting].",
+        "instruction": "Could you kindly confirm if I can join the meeting with Sarah and Mike on Friday at 10:30 AM?\n*",
+        "input": "<noinput>\n*",
+        "output": "I am pleased to confirm your attendance in the meeting with attendees Sarah and Mike, scheduled for November 29th, 2024 at 10:30 AM.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -440,9 +440,9 @@
         ]
     },
     {
-        "instruction": "Who else would you like to invite to the meeting? Please provide their names or email addresses.",
-        "input": "",
-        "output": "I\u2019ve taken note of that. Who else do you have in mind for the meeting? Please let me know if there are any other participants you\u2019d like to include so that I can add them to our guest list and ensure they receive an invitation.\n\nNow, here's another example:",
+        "instruction": "Would you mind looking into the possibility of me joining the meeting with Sarah and Mike on Friday at 10:30 AM?\n*",
+        "input": "<noinput>\n*",
+        "output": "I am currently investigating the feasibility of your participation in the meeting with attendees Sarah and Mike, scheduled for November 29th, 2024 at 10:30 AM.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -450,9 +450,9 @@
         ]
     },
     {
-        "instruction": "Please inform me of any other attendees you would like to include in this meeting. Provide their names or email addresses if possible.",
+        "instruction": "Help me schedule a meeting with Tom, Alex, Sarah, and John for this Thursday at 10:00 AM in the conference room.",
         "input": "",
-        "output": "I have taken note of that. Who else do you have in mind for the meeting? Please let me know if there are any other participants you\u2019d like to include so that I can add them to our guest list and ensure they receive an invitation.\n\nNow, here's another example for a new instruction and output for Task 2:",
+        "output": "Sure thing! I'll make sure to invite all four of you to the meeting at our usual time this coming Thursday at 10:00 AM. Just let me know if there are any changes or special requests for the meeting, such as equipment needs or attendees.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -460,9 +460,9 @@
         ]
     },
     {
-        "instruction": "Please specify the exact time when you would like this meeting to take place. If there is no preference for date, please let me know how soon you would be available so that I can propose a suitable time.",
+        "instruction": "Do you think that you can reschedule my meeting with John from tomorrow to 31st December at 11 PM?",
         "input": "",
-        "output": "Shall we meet at 10:30am on Monday or perhaps later in the day? Let me know what works best for your schedule so that I can find a time that suits you and all involved participants.",
+        "output": "Of course! I have rescheduled your meeting with John from tomorrow to 2024-12-31 at 23:00:00.000000.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -470,9 +470,9 @@
         ]
     },
     {
-        "instruction": "Please schedule a meeting with me next Wednesday at 3 PM to discuss project progress. If any attendee is unavailable, please let me know so that we can find an alternative time and date for the meeting.",
+        "instruction": "List down at least five important considerations for the assistant to take into account when it comes to scheduling meetings via natural language.",
         "input": "",
-        "output": "I have scheduled the meeting for next Wednesday at 3 PM to discuss project progress with you. However, I noticed that John Doe is unavailable on that day. Shall we reschedule the meeting? If so, could you please suggest an alternative date and time for John to join us?",
+        "output": "1) Ensure all necessary information is provided, such as the names of the attendees, the date and time of the meeting, the agenda, and the duration of the meeting. If any information is missing, prompt the user to provide it.\n2) Confirm the identity of each attendee when there are multiple people with the same name. This can be done by asking for their email address or other unique identifier.\n3) Make sure to convert any natural language inputs into structured data that can be used to schedule a meeting. For example, \"I want to meet John this Wednesday at 2 pm\" should become \"Meet with attendee: John, date: Wednesday, time: 2 pm\".\n4) Keep track of any existing appointments or commitments that the user might have during the proposed meeting time. If there are conflicts, suggest alternative times that don't conflict and ask if those times work better for them.\n5) Ensure that the assistant understands any abbreviations, acronyms, or jargon used in the natural language inputs. For example, \"Let's discuss the new project at 3 pm on Monday\" might be interpreted as a request to talk about the new project during a meeting that starts at 3 pm on Monday, even if it was intended as a reminder to review the project before that meeting.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -480,9 +480,9 @@
         ]
     },
     {
-        "instruction": "Could you help me find a meeting room for Monday afternoon from 1 PM? I have an important interview and need a quiet place to conduct it.",
+        "instruction": "What are my upcoming meetings?",
         "input": "",
-        "output": "I can look for a suitable room for you on Monday at 1 PM.What is your interview about?It will be good to know the participants that you would like to invite for better coordination of the room.",
+        "output": "You have an upcoming meeting with Sarah on Friday at 9 AM and another one with Mike on Monday at 2 PM.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -490,9 +490,9 @@
         ]
     },
     {
-        "instruction": "Could you help me find an available meeting room for next Friday, from 9 AM until 12 noon, for a strategic planning session? I want to invite six attendees: John Doe, Jane Doe, Joe Doe, Mary Doe, Peter Doe and Susan Doe.",
+        "instruction": "Can you help me check if my meeting with John and Mary for next Friday at 2 PM is still on?",
         "input": "",
-        "output": "I found an available meeting room for you on next Friday from 9 AM until 12 noon. I will confirm the availability of your attendees beforehand.What is your strategic planning session about?It will be good to know the details of this event and the agenda to better coordinate the room and the participants.",
+        "output": "Your meeting with John and Mary is still scheduled for Friday, the 14th of June at 14:00:00.000000.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -500,9 +500,9 @@
         ]
     },
     {
-        "instruction": "I need to find a suitable time for a meeting between 2 PM and 6 PM on Friday.",
+        "instruction": "Can you help me check if there is a meeting with John and Mary this Wednesday at 2 PM?",
         "input": "",
-        "output": "How about we meet at 3 PM? This should give us enough time to discuss the matter thoroughly before the end of the day. Please confirm if this is good for you all.",
+        "output": "There is no meeting with John and Mary scheduled for Wednesday, the 13th of June or any other day that you have specified.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -510,9 +510,9 @@
         ]
     },
     {
-        "instruction": "I'm looking to set up a meeting with Sarah and Mark. Can you help me with the details of their availability so I can schedule it?",
+        "instruction": "What is the purpose of our meeting with Bill?",
         "input": "",
-        "output": "Of course! I have checked their schedules, and they are both available from 9 AM to 6 PM on Friday. How about we meet at 2 PM to ensure that we can have enough time for the discussion before the end of the day? Please confirm if this is good for you all.",
+        "output": "The purpose of the meeting is [insert agenda here]. For example, \"The purpose of the meeting is to discuss project X and make a decision about it.\"",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -520,9 +520,9 @@
         ]
     },
     {
-        "instruction": "I'm trying to schedule a meeting with Tom, Dick and Harry. I need help finding out their availability on Friday so I can set up the meeting at an appropriate time.",
+        "instruction": "Can you tell me how long my meeting with Bill will last?",
         "input": "",
-        "output": "It looks like they are all available from 9 AM to 6 PM on Friday. How about we meet at 2 PM? This should give us enough time to discuss the matter thoroughly before the end of the day. Please confirm if this is good for you all.",
+        "output": "Your meeting with Bill will last [insert duration here] minutes. For example, \"Your meeting will last 30 minutes.\"",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -530,9 +530,9 @@
         ]
     },
     {
-        "instruction": "I want to schedule a meeting with Tom, Dick and Harry. I'm looking to find an appropriate time between 1 PM and 3 PM on Friday. Can you help me with this?",
+        "instruction": "You will receive a calendar invite with all your scheduled meetings. If you need to cancel or postpone one of them, simply click on it to open and make your necessary adjustments. Remember to save and send your updates so everyone knows about the changes.",
         "input": "",
-        "output": "Of course! We can meet at 2 PM during that time window. Please confirm if this is good for you all.",
+        "output": "You have received a calendar invite with all your scheduled meetings. To cancel or reschedule any meeting, simply click on its title and select \u201cCancel Meeting\u201d or \u201cReschedule Meeting.\u201d Make sure to save and send your updates so everyone knows about the changes.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -540,9 +540,9 @@
         ]
     },
     {
-        "instruction": "Inform me about the schedule for a meeting with my teammates tomorrow at 10 am to talk about our project status.",
+        "instruction": "Add my name to the meeting list with Alice on Friday at noon.",
         "input": "",
-        "output": "The meeting is now confirmed for tomorrow, 10 AM. Can you share your latest progress update or any other topics that you would like to discuss during the meeting?",
+        "output": "I understand you'd like me added to your list of attendees for a meeting on Friday, December 15th, 2023 at 12:00 PM. To help confirm your request, I need to know the name of the meeting. Please provide more information about the meeting so that I can ensure accuracy in updating the list.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -550,9 +550,9 @@
         ]
     },
     {
-        "instruction": "Please tell me what time and date to choose for our meeting so that I can book a suitable conference room.",
+        "instruction": "Do I have any meetings with John on Thursday at 10:00 AM?",
         "input": "",
-        "output": "Please specify your preferred time and date for the meeting, and I will confirm availability of a suitable conference room at that time.",
+        "output": "I understand you're inquiring about a meeting involving John and yourself on Thursday, December 15th, 2023 at 10:00 AM. To help confirm your request, I need to know the name of the meeting. Please provide more information about the meeting so that I can ensure accuracy in updating the list.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -560,9 +560,9 @@
         ]
     },
     {
-        "instruction": "What's the earliest date and time I can arrange a meeting with John, Mary, and George for next week?",
+        "instruction": "Find a meeting time with John for Wednesday and add me to it.",
         "input": "",
-        "output": "I have checked their schedules, and they are available on Tuesday from 1 PM to 5 PM. How about we meet at 3 PM to ensure that everyone has enough time to prepare before the meeting starts? Please confirm if this is good for you all.",
+        "output": "I understand you're looking to schedule a meeting involving both yourself, John, and myself on Wednesday at an undetermined time. To help confirm your request, I need to know the name of the meeting. Please provide more information about the meeting so that I can ensure accuracy in updating the list.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -570,9 +570,9 @@
         ]
     },
     {
-        "instruction": "Can you help me schedule a meeting with John, Mary, and George next week at my requested time slot between 10 AM - 3 PM?",
+        "instruction": "Help me find a quiet room to have this meeting in.",
         "input": "",
-        "output": "I see that you are available from 9 AM to 5 PM on Monday. I suggest we meet around 11 AM so that everyone can have enough time to prepare before the meeting starts. Is this a good time for you all?",
+        "output": "No problem, I can help you with that. The quietest rooms I've found are A201 and B304.\n** Explanation\nThis task demonstrates how the bot can provide practical assistance beyond scheduling meetings. It shows how it can recommend suitable spaces based on user preferences.\n\n*",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -580,9 +580,9 @@
         ]
     },
     {
-        "instruction": "Please confirm my participation in the upcoming project review meeting on January 1st at 2pm EST.",
+        "instruction": "Please remind me to follow up with John about our meeting.",
         "input": "",
-        "output": "I confirm your participation in the project review meeting on January 1st at 2pm EST. I will ensure that you receive all necessary updates and materials for this meeting.",
+        "output": "I've set a reminder for you to follow up with John at the agreed time. It's going to be Thursday, September 8th at 2 PM.\n** Explanation\nThis task demonstrates how the bot can provide helpful reminders based on user inputs and scheduling information.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -590,9 +590,9 @@
         ]
     },
     {
-        "instruction": "Let's discuss the progress of our project next week, either on Monday or Tuesday, around 2 PM. Please confirm one of those days and times that work best for you.",
+        "instruction": "What are the necessary pieces of information that I need to provide when scheduling a meeting using your service?",
         "input": "",
-        "output": "I will send you a calendar invite for Monday at 2 PM. Let me know if that time doesn't work for you.",
+        "output": "Name and contact information of attendees, desired date and time for the meeting, and the purpose of the meeting.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [
@@ -600,9 +600,409 @@
         ]
     },
     {
-        "instruction": "I want to schedule a meeting with Tom, Dick and Harry on Monday at 3 PM to discuss project progress. However, I need to know if any of them are available then before proceeding.",
+        "instruction": "I need to schedule a meeting for me and three other people, next week. I'm not sure of the exact dates yet, so can you suggest a few days that work best for us?",
         "input": "",
-        "output": "Alright, I will check their availability and let you know as soon as possible.",
+        "output": "Of course! Let's start by finding some suitable days next week. Please mention the dates you have in mind, and if there are any specific times during those days that would be preferable.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please schedule me for my upcoming meeting with the Tony.",
+        "input": "",
+        "output": "Sure, what time and date would you like to meet him?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please add the agenda for our meeting.",
+        "input": "",
+        "output": "I'd be happy to help you create a draft of your agenda. What would you like me to include in the discussion?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please provide an example of how a user would ask for a meeting with a specific group of people and include the necessary information in their request.",
+        "input": "",
+        "output": "User: \"I want to meet with John, Mary, and Peter at 3 pm this Friday. I need everyone present for a project update, so please make sure all three are available then.\"",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Could you please provide an example of how to schedule a recurring meeting?",
+        "input": "",
+        "output": "To schedule a recurring meeting, follow these steps:\n1) Make sure the user has entered the correct information about the attendees, date, time and duration. If any information is missing, prompt the user to provide it.\n2) After gathering all necessary information, confirm with the user that they want to have this recurring meeting. For example: \"Do you wish to schedule a weekly meeting every Wednesday at 3 pm?\"\n3) Once the user has confirmed their wishes, create a recurring event based on their input. This can be done by creating a new instance of the RecurringEvent class and setting its properties accordingly (e.g., repeatingInterval = WeeklyRepeatingInterval.WEEKLY).\n4) Save any necessary changes to the user's calendar or schedule.\n** Explanation\nThis task demonstrates how to schedule recurring meetings, which are common in many professional settings. It also highlights the bot's ability to create and manage recurring events based on user input.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Provide an example of a natural language input that could be used to cancel or reschedule a previously scheduled meeting.",
+        "input": "",
+        "output": "Here are two examples of such inputs:\n1) I need to cancel my meeting tomorrow at 2 pm.\n2) I want to change the time of my meeting next week to Wednesday at 3 pm.\n** Explanation\nThese examples show how users can use natural language to request changes or cancellations to existing appointments. The chatbot should be able to recognize these requests and take appropriate action accordingly.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please give me an example of how to schedule a meeting with Jack at his office on Monday at 10 AM.",
+        "input": "",
+        "output": "Certainly, let's schedule your meeting with Jack next Monday at 10 AM. I need to know the duration of the meeting, so can you please confirm it?\n\n** User's Reply\nThe meeting will last for one hour.\n** Bot's Reply\nGot it! I have scheduled the meeting with Jack on Monday at 10 AM and it will last for one hour.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Could you please let me know when my meeting with Jane will be?",
+        "input": "",
+        "output": "Your meeting with Jane is scheduled for tomorrow at 4 PM. I have also sent a reminder to both parties.\n** Explanation\nThis task demonstrates how the bot responds to an inquiry about the status of a future meeting, and it emphasizes the importance of sending reminders before the meetings start.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Could you help me schedule a meeting with Lisa and Tom? I want it to take place in the afternoon next Thursday, but only if both are free.",
+        "input": "",
+        "output": "The following meeting has been scheduled: With Lisa and Tom on 07/21 at 3 PM. Is this correct?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Determine the duration of a meeting based on user input that includes no time specification.",
+        "input": "",
+        "output": "I see you've asked for a meeting but you didn't specify a duration. Normally, meetings last around one hour or more depending on their purpose. Is there anything particular about this meeting that requires it to be shorter or longer?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Update my appointment with Mary, Susan and Tom for next Monday at 12:00 PM",
+        "input": "",
+        "output": "I understand you're asking to update your appointment involving Mary, Susan, and Tom on Monday, December 19th, 2023 at 12:00 PM. To help confirm the details of your request, I need to know more about the meeting. Please provide further information about the agenda, purpose, or any other relevant context regarding this appointment so that I can ensure accuracy in updating the list.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Can you remind me what my next scheduled meeting is?",
+        "input": "",
+        "output": "I understand you're asking about your upcoming meetings. Here are the details of your next scheduled appointment:\n[Appointment Details]\nPlease let me know if this appointment is still relevant and if any changes need to be made so that I can ensure accuracy in maintaining your schedule.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "I need to reschedule our meeting today. Can we move it to tomorrow at 10 am?",
+        "input": "",
+        "output": "Of course! I've updated the schedule for our meeting, which will now take place tomorrow at 10:00 AM. Is there anything else you would like me to change or add regarding the meeting agenda?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please suggest a suitable venue for our meeting this Friday. It should accommodate up to 8 people and have access to WiFi.",
+        "input": "",
+        "output": "The office conference room is available and has seating capacity for up to 8 people. Additionally, it provides WiFi access. If you would like any other resources such as a whiteboard or snacks provided during the meeting, please let me know.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please schedule a meeting with myself and Paul at 9am tomorrow.",
+        "input": "Find an appropriate time and date for the meeting.",
+        "output": "Your appointment with yourself and Paul is scheduled for tomorrow at 8:00 am.\n\nThe input, instruction, and output are based on the provided document. The generated response includes the necessary data for scheduling a meeting, including the name of the attendees (or email) and the time and date of the meeting.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please tell me when my meeting with the John is scheduled for.",
+        "input": "",
+        "output": "Your meeting with the John is set for this Friday, 1:00 PM.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Confirm whether or not a meeting with the Jack and Mary from the marketing team has been scheduled.",
+        "input": "",
+        "output": "Certainly, there's a gathering of marketing folks scheduled for this Friday at 1:00 PM. You're Jack and Mary, right?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Can you provide the names of the attendees who will be attending my meeting next Wednesday at 2 pm?",
+        "input": "",
+        "output": "Of course, I can! The attendees for your meeting on next Wednesday at 2 pm are: Jane, John, and Mary.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "You need to make sure the user enters a time in military format (24-hour clock) when scheduling a meeting.",
+        "input": "",
+        "output": "I will set up your meeting for [insert entered time here] o'clock. Just remember that 10 o'clock means 10:00 and not 10:30!",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "How many meetings have been canceled?",
+        "input": "",
+        "output": "You have 6 meetings that have been canceled.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "What is the date today?",
+        "input": "",
+        "output": "Certainly! The date today is August 17th, 2023. I hope this information helps you plan for your day ahead.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "What are the details of my appointment with Bill tomorrow?",
+        "input": "",
+        "output": "Your appointment with Bill is scheduled for tomorrow at 10 AM. It will take place on Zoom, and it lasts for one hour. The topic of the meeting is \"Client Strategy\" and you can find more details about it in your calendar app or by looking up its name in your email. If you need to modify any of these details, please let me know as soon as possible so I can update them accordingly.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please delete my meeting scheduled for 9:00 AM on November 20th, 2024.",
+        "input": "",
+        "output": "DO you want to delete the meeting that is scheduled for 9:00 AM on next Wednesday?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Update my meeting with John from Tuesday to Wednesday next week.",
+        "input": "",
+        "output": "I've gone ahead and changed your meeting with John from Tuesday at 3:00 PM to Wednesday, September 1st, also at 3:00 PM. I've sent you an email confirmation for this update. Let me know if you have any other changes you need help with!",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please provide a concise and clear response for the question \"What is the minimum number of attendees required to schedule a meeting?\"",
+        "input": "",
+        "output": "The minimum number of attendees required to schedule a meeting is one. You can meet yourself, or you can meet with other people.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please provide a concise and clear response for the question \"What is the maximum duration that the assistant can handle when scheduling meetings via natural language?\"",
+        "input": "",
+        "output": "The assistant can handle meeting durations up to 6 hours long. However, if the user requests a meeting longer than this, the assistant should respond with an appropriate error message and ask for a shorter duration.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Kindly tell me how long my upcoming meeting with Bill will last?",
+        "input": "The meeting is expected to be [insert desired length here] minutes in total. For example, \"The meeting will take 30 minutes.\"",
+        "output": "We have scheduled your meeting with Bill to last for the specified duration of [insert desired length here] minutes. The start time has been set to [insert calculated start time here] and the end time is at [insert calculated end time here]. If you need any changes, please let us know as soon as possible so that we can make adjustments accordingly.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Cancel my one-on-one with John tomorrow at 4 PM.",
+        "input": "",
+        "output": "Your one-on-one with John has been cancelled for tomorrow at 16:00:00.000000.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Can you help me find a time when I can meet with Alex and John?",
+        "input": "",
+        "output": "I've looked through your calendar and found several times that work for both Alex and John. How about:\n- Monday at 2 PM,\n- Tuesday at 10 AM,\n- Wednesday at noon,\n- Thursday at 4 PM,\n- Friday at 9 AM? Please let me know if any of these work for you.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Can you remind me if my meeting with Susan was confirmed?",
+        "input": "",
+        "output": "Sure, no problem! I see that the meeting with Susan has been confirmed for today at 2 PM. It will take place in the conference room on the 4th floor, and it lasts for one hour. If you have any changes or updates to make regarding this appointment, please let me know so I can ensure everything goes smoothly.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please send me a calendar invitation for my meeting with John tomorrow at 3 PM in the board room.",
+        "input": "",
+        "output": "Absolutely! I've just sent you an email with a calendar invite for your meeting with John tomorrow at 3 PM. The meeting will take place in the board room, and it lasts for one hour. If there are any changes to the appointment or its details, please let me know so I can update accordingly.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Can you confirm if I have a meeting with you on [specific date] at [specific time]?",
+        "input": "",
+        "output": "No, there is no such meeting scheduled with me. Would you like to schedule one now?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Add a new attendee to my call on Monday with Steve.",
+        "input": "",
+        "output": "Who would you like added to your meeting next Monday?\n```",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Could you create a meeting with Paul tomorrow at 9am to discuss the new project?",
+        "input": "",
+        "output": "A new appointment has been added for tomorrow at 09:00:00.000000 with yourself and Paul discussing the new project.\n\nThe input, instruction, and output are based on the provided document. The generated response includes the necessary data for scheduling a meeting, including the name of the attendees (or email) and the time and date of the meeting.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please find out if I can meet with John at 2pm today.",
+        "input": "Check if there is a meeting scheduled for me and John today at 2:00 pm.",
+        "output": "Yes, you have a meeting scheduled for today with John at 1:30 pm.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "What is the minimum number of people required to attend this meeting?",
+        "input": "",
+        "output": "The minimum number of attendees that I need to confirm for this meeting is two. Please let me know if there are any other changes or additions needed regarding the attendees, time, date, duration or agenda of the meeting.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Could you please remind me of the location of our upcoming meeting?",
+        "input": "",
+        "output": "The meeting is scheduled to take place at [Location]. Is there anything else you would like me to know about the meeting, such as any special instructions or requirements?",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please suggest a suitable duration for this scheduled meeting.",
+        "input": "",
+        "output": "Let us plan for one hour for this meeting. We can always adjust the duration later if needed.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please provide an example of how a user would request more information about an event.",
+        "input": "",
+        "output": "User: \"What are the details for the meeting with the marketing team next week?\"",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Tell me what my status is right now with regard to the upcoming meeting with James at 2 PM.",
+        "input": "",
+        "output": "Your meeting with James for tomorrow, May 10th, at 2:00 PM is still scheduled and has not been changed or canceled.",
+        "taxonomy_path": "knowledge->qna",
+        "task_description": "A bot to assist users in scheduling meetings via natural language.",
+        "document": [
+            "# Meeting Scheduler Project\n\nThe **Meeting Scheduler Project** is a chatbot designed to help users schedule meetings with ease. It allows users to schedule meetings through natural language, and the chatbot's responses should be precise, brief, and on point.\n\nThe chatbot model must understand the user's inputs and gather all the necessary information required to schedule a meeting.\n\n## Necessary Data for Scheduling a Meeting:\n\n- **Name of the attendees** (or email)\n- **Time and date** of the meeting\n- **Agenda** (purpose) of the meeting\n- **Duration** of the meeting\n\n### Handling Missing Data\n\nIf the user's input does not contain any of the necessary data, the chatbot should prompt the user to provide the missing information. The chatbot should specifically ask for:\n\n- **Attendees**: If the attendees are not mentioned, the model should request the name or email of the attendees.\n- **Date and Time**: If the date and time of the meeting are missing, the model should ask for the meeting date and time.\n- **Agenda**: If the agenda is not provided, the model should ask for the purpose of the meeting.\n- **Duration**: If the user does not mention the duration of the meeting, the model should prompt for a meeting duration.\n\n### Attendee Clarification\n\nIf the user wants to schedule a meeting with an attendee and there are multiple attendees with the same name, the model should ask for the attendee's email to clarify the correct participant."
+        ]
+    },
+    {
+        "instruction": "Please create a new event on my calendar for an upcoming meeting with Alice. I would like to meet her in the conference room from 3-5 pm.",
+        "input": "",
+        "output": "I'm sorry, but I cannot create an event on your calendar for you at this time.",
         "taxonomy_path": "knowledge->qna",
         "task_description": "A bot to assist users in scheduling meetings via natural language.",
         "document": [

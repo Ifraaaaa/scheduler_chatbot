@@ -1,68 +1,134 @@
+import requests
+import logging
+import re
+from datetime import datetime, timedelta
+from django.http import JsonResponse
 from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework import status
 from scheduler_app.models import MeetingBooking, User
-import jwt
-from decouple import config
-from rest_framework.exceptions import AuthenticationFailed
-import datetime
 
-# Constants for error messages
-TOKEN_EXPIRED = "Token expired"
-INVALID_TOKEN = "Invalid token"
-MEETING_NOT_FOUND = "Meeting not found"
-MEETING_ALREADY_DELETED = "Meeting already deleted"
+# Set up logging
+logger = logging.getLogger(__name__)
 
-# Function to verify the JWT token
-def verify_jwt_token(token):
-    try:
-        payload = jwt.decode(token, config('mysecret'), algorithms=['HS256'])
-        return payload
-    except jwt.ExpiredSignatureError:
-        raise AuthenticationFailed(TOKEN_EXPIRED)
-    except jwt.InvalidTokenError:
-        raise AuthenticationFailed(INVALID_TOKEN)
+def extract_meeting_details(text):
+    """
+    Extract meeting details (attendee name, meeting date) from the user's message.
+    """
+    # Patterns for extracting date and attendee name
+    name_pattern = r'with\s+(\w+)'  # Matches "with John"
+    date_pattern = r'(\d{1,2}(?:st|nd|rd|th)?\s+of\s+\w+|\btomorrow\b|\bupcoming\b)'  # Matches dates like "7th of November", "tomorrow", or "upcoming"
 
-@api_view(['DELETE'])
+    # Extract attendee name
+    name_match = re.search(name_pattern, text)
+    attendee_name = name_match.group(1) if name_match else None
+
+    # Extract date
+    date_match = re.search(date_pattern, text)
+    meeting_date = None
+
+    if date_match:
+        date_str = date_match.group(1).lower()
+        today = datetime.today()
+
+        # Handle "tomorrow"
+        if 'tomorrow' in date_str:
+            meeting_date = today + timedelta(days=1)
+        # Handle specific dates like "7th of November"
+        else:
+            try:
+                meeting_date = datetime.strptime(date_str, '%dth of %B')
+                meeting_date = meeting_date.replace(year=today.year)  # Assume current year
+            except ValueError:
+                meeting_date = None  # Keep None if parsing fails
+
+    return {
+        'attendee_name': attendee_name,
+        'meeting_date': meeting_date
+    }
+
+@api_view(['POST'])
 def delete_meeting(request):
-    # Extract the meeting_id from the request
-    meeting_id = request.data.get('meeting_id')
-    
-    if not meeting_id:
-        return Response({"error": "Meeting ID is required"}, status=status.HTTP_400_BAD_REQUEST)
+    user_id = request.data.get('user_id')
+    user_message = request.data.get('user_message')
 
-    # Get the Authorization token from the request headers
-    if request.META.get('HTTP_AUTHORIZATION') is not None:
-        token = request.META.get('HTTP_AUTHORIZATION').split(' ')[1]
-        # Verify the JWT token
-        decoded_payload = verify_jwt_token(token)
-        
-        # Extract the user email from the decoded token payload
-        user_email = decoded_payload['email']
+    # Ensure the user exists
+    try:
+        user = User.objects.get(id=user_id)
+    except User.DoesNotExist:
+        logger.error("User not found.")
+        return JsonResponse({'error': 'User not found.'}, status=404)
 
-        try:
-            # Find the user by email
-            user = User.objects.get(email=user_email)
+    # Extract meeting details from the user's message
+    extracted_details = extract_meeting_details(user_message)
+    attendee_name = extracted_details['attendee_name']
+    meeting_date = extracted_details['meeting_date']
 
-            # Find the meeting by meeting_id and user
-            meeting = MeetingBooking.objects.filter(booking_id=meeting_id, user=user).first()
-            if not meeting:
-                return Response({"error": MEETING_NOT_FOUND}, status=status.HTTP_404_NOT_FOUND)
+    # Fetch all meetings for the user
+    meetings = MeetingBooking.objects.filter(user=user)
 
-            # Check if the meeting has already been deleted (status is False)
-            if not meeting.status:
-                return Response({"error": MEETING_ALREADY_DELETED}, status=status.HTTP_400_BAD_REQUEST)
+    if not meetings.exists():
+        return JsonResponse({'error': 'No meetings found for the user.'}, status=404)
 
-            # Set the meeting status to False (soft delete)
-            meeting.status = False
-            meeting.save()
+    # Filter meetings based on the extracted details
+    matching_meeting = None
 
-            return Response({"message": "Meeting successfully deleted."}, status=status.HTTP_200_OK)
+    for meeting in meetings:
+        mandatory_attendees = meeting.mandatory_attendees.lower() if meeting.mandatory_attendees else ""
 
-        except User.DoesNotExist:
-            return Response({"error": "User not found."}, status=status.HTTP_404_NOT_FOUND)
-        except Exception as e:
-            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-    
-    else:
-        return Response({"status": INVALID_TOKEN}, status=status.HTTP_401_UNAUTHORIZED)
+        # Match the attendee name if provided
+        if attendee_name and attendee_name.lower() not in mandatory_attendees:
+            continue
+
+        # Match the meeting date if provided
+        if meeting_date and meeting.meeting_date != meeting_date.date():
+            continue
+
+        # If "upcoming" was mentioned or no specific date, consider the next meeting
+        if 'upcoming' in user_message.lower():
+            upcoming_meetings = meetings.filter(meeting_date__gte=datetime.today()).order_by('meeting_date')
+            if upcoming_meetings.exists():
+                matching_meeting = upcoming_meetings.first()
+            break
+
+        # If all checks pass, this is the matching meeting
+        matching_meeting = meeting
+        break
+
+    if not matching_meeting:
+        return JsonResponse({'error': 'No matching meeting found.'}, status=404)
+
+    # Mark the meeting as deleted (soft delete)
+    matching_meeting.status = False
+    matching_meeting.save()
+
+    # Call Chatbot API for confirmation message
+    chatbot_payload = {
+        "model": "models/merlinite-7b-lab-Q4_K_M.gguf",
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant."
+            },
+            {
+                "role": "user",
+                "content": f"User has requested to delete the meeting with {attendee_name if attendee_name else 'unknown attendee'}. The meeting was scheduled on {matching_meeting.meeting_date} at {matching_meeting.meeting_time}. Please confirm the deletion."
+            }
+        ]
+    }
+
+    try:
+        chatbot_url = "http://127.0.0.1:8000/v1/chat/completions"
+        chatbot_response = requests.post(chatbot_url, json=chatbot_payload)
+        chatbot_response.raise_for_status()
+        chatbot_data = chatbot_response.json()
+        assistant_message = chatbot_data['choices'][0]['message']['content']
+    except requests.RequestException as e:
+        logger.error(f"Chatbot API request failed: {str(e)}")
+        assistant_message = f"Meeting has been deleted."
+
+    return JsonResponse({
+        'message': f'Meeting successfully deleted.',
+        'assistant_message': assistant_message,
+        'meeting_id': matching_meeting.booking_id,
+        'meeting_date': str(matching_meeting.meeting_date),
+        'meeting_time': str(matching_meeting.meeting_time)
+    }, status=200)
